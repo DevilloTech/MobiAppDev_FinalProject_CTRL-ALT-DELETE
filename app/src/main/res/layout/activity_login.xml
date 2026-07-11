@@ -25,7 +25,7 @@
         android:id="@+id/txtLoginSub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="45dp"
         android:layout_marginTop="5dp"
         android:background="#FCEBCD"
         android:fontFamily="sans-serif-condensed-medium"
@@ -38,9 +38,9 @@
 
     <EditText
         android:id="@+id/etFullName3"
-        android:layout_width="312dp"
+        android:layout_width="325dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="45dp"
         android:layout_marginTop="10dp"
         android:autofillHints="full name"
         android:background="@drawable/edittext_background"
@@ -76,8 +76,8 @@
         android:id="@+id/tvEmailLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="30dp"
         android:fontFamily="@font/acme"
         android:text="@string/etEmailLogin"
         android:textColor="@color/textSecondary"
@@ -90,7 +90,7 @@
         android:id="@+id/tvPassword3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="45dp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/acme"
         android:text="@string/etPasswordLogin"
@@ -102,9 +102,9 @@
 
     <EditText
         android:id="@+id/etEmail3"
-        android:layout_width="312dp"
+        android:layout_width="325dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="45dp"
         android:layout_marginTop="10dp"
         android:autofillHints="emailAddress"
         android:background="@drawable/edittext_background"
@@ -147,11 +147,10 @@
         android:id="@+id/imageView6"
         android:layout_width="364dp"
         android:layout_height="225dp"
-        app:layout_constraintBottom_toTopOf="@+id/txtLoginMain"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/swoosh" />
+        app:srcCompat="@drawable/swoosh"
+        tools:layout_editor_absoluteY="-46dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
