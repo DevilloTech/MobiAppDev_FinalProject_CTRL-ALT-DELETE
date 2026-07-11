@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.TechnicalSumm2"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/primaryBrown</item>
+        <item name="colorPrimaryVariant">@color/primaryBrown</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/primaryBrown</item>
+        <item name="colorSecondaryVariant">@color/primaryBrown</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:windowBackground">@color/background</item>
+
+        <item name="android:statusBarColor">@color/primaryBrown</item>
+
+    </style>
+
+</resources>

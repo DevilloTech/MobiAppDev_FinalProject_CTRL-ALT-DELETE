@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        tools:context=".RegistrationFragment">
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <!-- Title -->
+
+        <TextView
+            android:id="@+id/txtHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registration_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"
+            android:fontFamily="@font/aclonica"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <!-- EMAIL -->
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/etEmail"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/textSecondary"
+            android:fontFamily="@font/acme"
+            app:layout_constraintTop_toBottomOf="@id/txtHome"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="12dp"
+            android:autofillHints="emailAddress"
+            android:background="@drawable/edittext_background"
+            android:hint="@string/etEmailHint"
+            android:inputType="textEmailAddress"
+            android:paddingHorizontal="12dp"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/tvEmail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/guidelineCenter"/>
+
+        <!-- FULL NAME -->
+
+        <TextView
+            android:id="@+id/tvFullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/etFullName"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/textSecondary"
+            android:textColorHint="@color/textSecondary"
+            android:fontFamily="@font/acme"
+            app:layout_constraintTop_toBottomOf="@id/txtHome"
+            app:layout_constraintStart_toStartOf="@id/guidelineCenter"/>
+
+        <EditText
+            android:id="@+id/etFullName"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="6dp"
+            android:autofillHints="name"
+            android:background="@drawable/edittext_background"
+            android:hint="@string/etFullNameHint"
+            android:inputType="textPersonName"
+            android:paddingHorizontal="12dp"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/tvFullName"
+            app:layout_constraintStart_toStartOf="@id/guidelineCenter"
+            app:layout_constraintEnd_toEndOf="parent"/>
+        <!-- PASSWORD -->
+
+        <TextView
+            android:id="@+id/tvPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/etPassword"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/textSecondary"
+            android:fontFamily="@font/acme"
+            app:layout_constraintTop_toBottomOf="@id/etEmail"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="12dp"
+            android:autofillHints="password"
+            android:background="@drawable/edittext_background"
+            android:hint="@string/etPasswordHint"
+            android:inputType="textPassword"
+            android:paddingHorizontal="12dp"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/tvPassword"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/guidelineCenter" />
+
+        <!-- CONFIRM PASSWORD -->
+
+        <TextView
+            android:id="@+id/tvConfirmPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="18dp"
+            android:text="@string/etConfirmPassword"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/textSecondary"
+            android:fontFamily="@font/acme"
+            app:layout_constraintTop_toBottomOf="@id/etFullName"
+            app:layout_constraintStart_toStartOf="@id/guidelineCenter" />
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="6dp"
+            android:autofillHints="password"
+            android:background="@drawable/edittext_background"
+            android:hint="@string/etConfirmPasswordHint"
+            android:inputType="textPassword"
+            android:paddingHorizontal="12dp"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/tvConfirmPassword"
+            app:layout_constraintStart_toStartOf="@id/guidelineCenter"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- REGISTER BUTTON -->
+
+        <Button
+            android:id="@+id/btRegister"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="200dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="@color/primaryBrown"
+            android:fontFamily="@font/acme"
+            android:text="@string/btRegister"
+            android:textSize="15sp"
+            app:cornerRadius="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etConfirmPassword" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

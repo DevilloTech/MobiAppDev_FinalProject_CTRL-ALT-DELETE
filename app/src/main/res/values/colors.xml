@@ -1,0 +1,19 @@
+<resources>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <color name="background">#FEEDCF</color>
+    <color name="surface">#FFFFFF</color>
+
+    <color name="textPrimary">#2E2E2E</color>
+    <color name="textSecondary">#6B5B4B</color>
+
+    <color name="primaryBrown">#98623C</color>
+
+    <color name="cardBackground">#FFFFFF</color>
+
+    <color name="editTextBackground">#FFFFFF</color>
+    <color name="editTextBorder">#98623C</color>
+
+</resources>
