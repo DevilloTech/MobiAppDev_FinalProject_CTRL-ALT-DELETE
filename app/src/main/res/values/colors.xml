@@ -15,5 +15,5 @@
 
     <color name="editTextBackground">#FFFFFF</color>
     <color name="editTextBorder">#98623C</color>
-
+    <color name="LoginColor">#65503E</color>
 </resources>

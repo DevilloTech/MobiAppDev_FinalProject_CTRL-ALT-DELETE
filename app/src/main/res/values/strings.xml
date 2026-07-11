@@ -34,4 +34,12 @@
     <string name="desc1">I\'m a subhead</string>
     <string name="desc2">I\'m a supporting text. Very Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
 
+    <!-- Activity Login Page -->
+
+    <string name="LoginHeaderText">Welcome back Admin!</string>
+    <string name="LoginDescText">Please enter your details to Log In!</string>
+    <string name="btLogin">Login</string>
+    <string name="etEmailLogin">Email</string>
+    <string name="etPasswordLogin">Password</string>
+
 </resources>
