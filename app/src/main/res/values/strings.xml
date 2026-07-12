@@ -41,5 +41,6 @@
     <string name="btLogin">Login</string>
     <string name="etEmailLogin">Email</string>
     <string name="etPasswordLogin">Password</string>
+    <string name="TvRegisterPage">Don\'t have an account yet?</string>
 
 </resources>
