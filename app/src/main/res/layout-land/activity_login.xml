@@ -7,6 +7,46 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
+    <EditText
+        android:id="@+id/etEmail3"
+        android:layout_width="312dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="emailAddress"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:fontFamily="@font/acme"
+        android:hint="@string/etEmailHint"
+        android:inputType="textEmailAddress"
+        android:minHeight="52dp"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="10dp"
+        android:textColor="@color/textPrimary"
+        android:textColorHint="@color/textSecondary"
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/tvEmailLogin" />
+
+    <EditText
+        android:id="@+id/etPassword3"
+        android:layout_width="312dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="password"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:fontFamily="@font/acme"
+        android:hint="@string/etPasswordHint"
+        android:inputType="textPassword"
+        android:minHeight="52dp"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="10dp"
+        android:textColor="@color/textPrimary"
+        android:textColorHint="@color/textSecondary"
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/tvPassword3" />
+
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="187dp"
@@ -56,7 +96,7 @@
         app:cornerRadius="20dp"
         app:layout_constraintEnd_toStartOf="@+id/imageView7"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/etEmail3"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword3"
         tools:ignore="VisualLintButtonSize" />
 
     <TextView
@@ -72,47 +112,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/imageView7"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/etFullName3" />
-
-    <EditText
-        android:id="@+id/etEmail3"
-        android:layout_width="312dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="10dp"
-        android:autofillHints="emailAddress"
-        android:background="@drawable/edittext_background"
-        android:ems="10"
-        android:fontFamily="@font/acme"
-        android:hint="@string/etEmailHint"
-        android:inputType="textEmailAddress"
-        android:minHeight="52dp"
-        android:paddingHorizontal="16dp"
-        android:paddingVertical="10dp"
-        android:textColor="@color/textPrimary"
-        android:textColorHint="@color/textSecondary"
-        app:layout_constraintEnd_toStartOf="@+id/imageView7"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/tvPassword3" />
-
-    <EditText
-        android:id="@+id/etFullName3"
-        android:layout_width="312dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="10dp"
-        android:autofillHints="full name"
-        android:background="@drawable/edittext_background"
-        android:ems="10"
-        android:fontFamily="@font/acme"
-        android:hint="@string/etFullNameHint"
-        android:inputType="text"
-        android:minHeight="52dp"
-        android:paddingHorizontal="16dp"
-        android:paddingVertical="10dp"
-        android:textColor="@color/textPrimary"
-        android:textColorHint="@color/textSecondary"
-        app:layout_constraintEnd_toStartOf="@+id/imageView7"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/tvEmailLogin" />
+        app:layout_constraintTop_toBottomOf="@+id/etEmail3" />
 
     <TextView
         android:id="@+id/tvEmailLogin"
@@ -160,7 +160,7 @@
         android:id="@+id/tvRegisterPage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/TvRegisterPage"
+        android:text="@string/GoBackToUserLogin"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/imageView7"
         app:layout_constraintStart_toEndOf="@+id/imageView5"

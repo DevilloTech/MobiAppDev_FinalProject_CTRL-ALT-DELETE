@@ -41,6 +41,10 @@
     <string name="btLogin">Login</string>
     <string name="etEmailLogin">Email</string>
     <string name="etPasswordLogin">Password</string>
+    <string name="GoBackToUserLogin">Are you not an Admin?</string>
+
+    <string name="UserLoginHeaderText">Welcome back User!</string>
     <string name="TvRegisterPage">Don\'t have an account yet?</string>
+
 
 </resources>
