@@ -20,5 +20,10 @@
         <item name="android:statusBarColor">@color/primaryBrown</item>
 
     </style>
+    <style name="Theme.TechnicalSumm2.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
 
 </resources>
