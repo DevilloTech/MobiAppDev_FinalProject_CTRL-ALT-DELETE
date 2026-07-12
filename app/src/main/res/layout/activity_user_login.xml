@@ -7,6 +7,26 @@
     android:layout_height="match_parent"
     tools:context=".UserLoginActivity">
 
+    <EditText
+        android:id="@+id/etPassword4"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autofillHints="password"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:fontFamily="@font/acme"
+        android:hint="@string/etPasswordHint"
+        android:inputType="textPassword"
+        android:minHeight="52dp"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="10dp"
+        android:textColor="@color/textPrimary"
+        android:textColorHint="@color/textSecondary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPassword2" />
+
     <Button
         android:id="@+id/btLogin2"
         android:layout_width="312dp"
@@ -20,23 +40,7 @@
         app:cornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etFullName2"
-        tools:ignore="VisualLintButtonSize" />
-
-    <Button
-        android:id="@+id/btLogin4"
-        android:layout_width="312dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="@color/primaryBrown"
-        android:fontFamily="@font/acme"
-        android:minHeight="52dp"
-        android:text="@string/btLogin"
-        android:textSize="16sp"
-        app:cornerRadius="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etFullName2"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword4"
         tools:ignore="VisualLintButtonSize" />
 
     <TextView
@@ -71,10 +75,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/TvRegisterPage"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btLogin2" />
+        app:layout_constraintTop_toBottomOf="@+id/btLogin2"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="@color/primaryBrown"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tvPassword2"
@@ -90,26 +97,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etEmail2" />
-
-    <EditText
-        android:id="@+id/etFullName2"
-        android:layout_width="325dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:autofillHints="full name"
-        android:background="@drawable/edittext_background"
-        android:ems="10"
-        android:fontFamily="@font/acme"
-        android:hint="@string/etFullNameHint"
-        android:inputType="text"
-        android:minHeight="52dp"
-        android:paddingHorizontal="16dp"
-        android:paddingVertical="10dp"
-        android:textColor="@color/textPrimary"
-        android:textColorHint="@color/textSecondary"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvPassword2" />
 
     <TextView
         android:id="@+id/tvEmailLogin2"

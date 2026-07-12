@@ -5,6 +5,7 @@
     <string name="about_us">About Us</string>
     <string name="home">Home</string>
     <string name="registration">Registration</string>
+    <string name="profile">Profile</string>
     <string name="home_fragment">CTRL + ALT + DELETE</string>
     <string name="registration_title">CREATE ACCOUNT</string>
     <string name="about_us_fragment">About Us Fragment</string>
@@ -46,5 +47,7 @@
     <string name="UserLoginHeaderText">Welcome back User!</string>
     <string name="TvRegisterPage">Don\'t have an account yet?</string>
 
+    <string name="GoToAdminLogin">Are you an Admin?</string>
+    <string name="RegisterDescText">Please fill out the details to register!</string>
 
 </resources>

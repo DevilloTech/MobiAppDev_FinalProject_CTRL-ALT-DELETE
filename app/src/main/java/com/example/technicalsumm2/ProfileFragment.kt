@@ -12,7 +12,7 @@ import android.widget.Toast
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
-class RegistrationFragment : Fragment() {
+class ProfileFragment: Fragment() {
 
     private var param1: String? = null
     private var param2: String? = null
@@ -33,7 +33,7 @@ class RegistrationFragment : Fragment() {
     ): View {
 
         // Inflate the layout FIRST
-        val view = inflater.inflate(R.layout.fragment_registration, container, false)
+        val view = inflater.inflate(R.layout.fragment_profile, container, false)
 
         // Connect the EditTexts
         val etEmail = view.findViewById<EditText>(R.id.etEmail)
@@ -93,7 +93,7 @@ class RegistrationFragment : Fragment() {
 
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            RegistrationFragment().apply {
+            ProfileFragment().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)

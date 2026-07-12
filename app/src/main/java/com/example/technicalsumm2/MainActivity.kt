@@ -107,9 +107,9 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
 
-                R.id.nav_registration -> {
-                    supportActionBar?.title = "Registration"
-                    replaceFragment(RegistrationFragment())
+                R.id.nav_profile -> {
+                    supportActionBar?.title = "Profile"
+                    replaceFragment(ProfileFragment())
                     true
                 }
 
