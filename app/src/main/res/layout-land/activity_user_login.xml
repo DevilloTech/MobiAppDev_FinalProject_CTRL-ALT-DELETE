@@ -76,14 +76,14 @@
         app:layout_constraintTop_toBottomOf="@+id/txtLoginMain3" />
 
     <TextView
-        android:id="@+id/tvRegisterPage4"
+        android:id="@+id/tvRegisterPage3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/TvRegisterPage"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/imageView9"
         app:layout_constraintStart_toEndOf="@+id/imageView8"
-        app:layout_constraintTop_toBottomOf="@+id/btLogin3" />
+        app:layout_constraintTop_toBottomOf="@+id/btLogin2" />
 
     <TextView
         android:id="@+id/txtLoginMain3"
@@ -136,7 +136,7 @@
         app:layout_constraintTop_toBottomOf="@+id/etFullName4" />
 
     <Button
-        android:id="@+id/btLogin3"
+        android:id="@+id/btLogin2"
         android:layout_width="312dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"

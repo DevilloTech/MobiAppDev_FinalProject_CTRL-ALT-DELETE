@@ -8,7 +8,7 @@
     tools:context=".LoginActivity">
 
     <EditText
-        android:id="@+id/etEmail3"
+        android:id="@+id/etEmail5"
         android:layout_width="312dp"
         android:layout_height="40dp"
         android:layout_marginTop="10dp"
@@ -28,7 +28,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvEmailLogin" />
 
     <EditText
-        android:id="@+id/etPassword3"
+        android:id="@+id/etPassword2"
         android:layout_width="312dp"
         android:layout_height="40dp"
         android:layout_marginTop="10dp"
@@ -96,7 +96,7 @@
         app:cornerRadius="20dp"
         app:layout_constraintEnd_toStartOf="@+id/imageView7"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/etPassword3"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword2"
         tools:ignore="VisualLintButtonSize" />
 
     <TextView
@@ -112,7 +112,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/imageView7"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/etEmail3" />
+        app:layout_constraintTop_toBottomOf="@+id/etEmail5" />
 
     <TextView
         android:id="@+id/tvEmailLogin"
@@ -157,7 +157,7 @@
         app:layout_constraintTop_toBottomOf="@+id/txtLoginMain" />
 
     <TextView
-        android:id="@+id/tvRegisterPage"
+        android:id="@+id/tvRegisterPage2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/GoBackToUserLogin"
