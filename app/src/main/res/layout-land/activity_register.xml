@@ -51,8 +51,8 @@
       android:textColor="@color/LoginColor"
       android:textSize="18sp"
       android:textStyle="normal"
-      app:layout_constraintEnd_toStartOf="@+id/imageView13"
-      app:layout_constraintStart_toEndOf="@+id/imageView12"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="@+id/imageView12"
       app:layout_constraintTop_toBottomOf="@+id/divider5" />
 
   <View
